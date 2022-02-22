@@ -21,10 +21,10 @@
 #define REDLED PINB2
 
 #define pulselength 10 //ms
-#define repeatsExpected 3 //how many packets we expecting?
-#define expectedDataBits 8 //how many databits we expect?
+#define repeatsExpected 3 //how many packets we expecting (reapeats)?
+#define expectedDataBits 8 //how many databits per packet expect?
 #define channel 3 //what channel to listen to?
-#define msTimeout 255 //timeout (timer resets with last legit bit) size see msSincePacket;
+#define msTimeout 255 //timeout (timer resets with last legit bit);
 
 //volatile const nbits = expectedDataBits+6; //INDEXED bits 8databits+(4channel+2synccheck) = 14 bits (13 indexed)
 
